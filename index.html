@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chat Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="side-menu" class="side-menu">
+        <div class="menu-header">
+            <h2>Menu</h2>
+            <button id="close-menu" class="close-menu-btn">&times;</button>
+        </div>
+        <ul class="menu-list">
+            <li><a href="#" id="history">History</a></li>
+            <li><a href="#" id="settings">Settings</a></li>
+        </ul>
+    </div>
+
+    <div id="main-content" class="main-content">
+        <header>
+            <h1>AI Chat</h1>
+            <button id="open-menu" class="open-menu-btn">&#9776; Menu</button>
+        </header>
+
+        <main>
+            <div id="chat-window" class="chat-window">
+                <!-- Messages will appear here dynamically -->
+            </div>
+
+            <div id="input-section" class="input-section">
+                <input type="text" id="user-input" placeholder="Type a message...">
+                <button id="send-message">Send</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 AI Chat Website</p>
+        </footer>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
